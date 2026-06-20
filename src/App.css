@@ -1,0 +1,472 @@
+body{
+ background-color:#000000;
+  color: #E2E8F0;
+    
+}
+
+
+.input-group{
+position: fixed;
+top:40%;
+
+}
+
+.navlink a{
+
+  font-size: 17px;
+  text-decoration: none;
+}
+.navlink a button{
+background-color: #000000;
+  color: #fecd45;
+  border-radius: 25px;
+  width:95px;
+  height:50px;
+  border: none;
+
+}
+.custom{
+  color:#8da242
+}
+.custom2{
+  color:#a7bc5b
+}
+.getbtn{
+  background-color: #fecd45;
+  height:50px;
+  width:100px;
+  border-radius: 25px;
+  border:none;
+}
+.getbtn:hover {
+  background-color: #e6b93d;
+  transform: scale(1.03);
+}
+.getbtn a{
+  color:#000000;
+  text-decoration: none;
+  
+}
+.signupcard {
+  background-color: #111;
+  padding: 40px;
+  border-radius: 20px;
+  width: 450px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  border: 1px solid rgba(254, 205, 69, 0.2);
+}
+.inputform {
+  height: 50px;
+  width: 400px;
+  border-radius: 25px;
+  padding: 0 15px;
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  color: white;
+  outline: none;
+  transition: 0.3s;
+}
+.inputlabel{
+  color:#8da242;
+}
+.error{ color: #ff6b6b;
+  font-size: 14px;
+  margin-top: -10px;
+}
+.inputbtn {
+  background-color: #fecd45;
+  height: 50px;
+  width: 100%;
+  border-radius: 25px;
+  border: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.inputbtn:hover {
+  background-color: #e6b93d;
+  transform: scale(1.03);
+}
+.imageform{
+  border-radius: 25px;
+ 
+  border: 1px solid #333;
+  width:400px;
+  outline: none;
+  transition: 0.3s;
+}
+.fileuploadcontainer{
+  
+   border-radius: 16px;
+  box-shadow: 0 0 20px rgba(255, 200, 0, 0.1);
+height:800px;
+width: 600px;
+
+}
+.uploadimage{
+ border: 2px dashed #333;
+ padding: 40px;
+ border-radius: 25px;
+}
+.uploadbtn{
+   background: #facc15;
+  border: none;
+  padding: 12px;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  width:200px;
+}
+.uploadbtn:hover {
+  background-color: #e6b93d;
+  transform: scale(1.03);
+}
+.status-text {
+  color: #a8e6cf;
+}
+.stats{
+    padding:20px;
+   border-radius: 16px;
+  box-shadow: 0 0 20px rgba(255, 200, 0, 0.1);
+}
+.deletebtn{
+  position: relative;
+  right:5rem;
+  top:70px;
+  opacity: 0;
+  padding: 6px 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.img-card:hover .deletebtn{
+  opacity: 0.8;
+}
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal img {
+  max-width: 800px;
+  max-height: 800px;
+}
+.cancelbtn{
+    border: none;
+  padding: 12px;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  width:200px;
+}
+.transform{
+  background-color: #0D9aff;
+    border: none;
+  padding: 12px;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  width:400px;
+}
+.transform:hover{
+  background-color: #8da242;
+}
+
+/* .transform-image img{
+  width: 600px;
+  height: 600px;
+} */
+.transform-image{
+  width: 1000px;
+  height: 1000px;
+}
+.btnforedit button{
+  height:60px;
+  width:60px;
+   border: 2px solid #3b82f6;
+background: white;
+  color: #3b82f6;
+
+  padding: 10px 18px;
+  border-radius: 10px;
+
+  box-shadow: 0 4px 10px rgba(59, 130, 246, 0.3);
+
+  cursor: pointer;
+  transition: all 0.3s ease;
+  
+
+}
+.btnforedit button.active-tool{
+  background: #3b82f6;
+  color: white;
+
+  box-shadow: 0 6px 18px rgba(59, 130, 246, 0.5);
+}
+.btnforedit button:hover{
+   background: #3b82f6;
+  color: white;
+
+  box-shadow: 0 6px 18px rgba(59, 130, 246, 0.5);
+
+  transform: translateY(-2px);
+}
+.editpanel{
+  
+  padding: 10px 10px;
+
+}
+.crop input{
+  height:30px;
+  width:140px;
+  background-color: #1a1a1a;
+  border-radius:5px;
+  border:none;
+  color:white
+}
+.savebtn{
+  height:50px;
+  width:200px;
+   border: 2px solid #3b82f6;
+background: #3b82f6;
+  color: white;
+
+  padding: 10px 18px;
+  border-radius: 10px;
+
+  box-shadow: 0 4px 10px rgba(59, 130, 246, 0.3);
+
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.savebtn:hover{
+  background:white;
+  color:#3b82f6;
+}
+.previewbtn{
+    height:60px;
+  width:300px;
+     
+background: #8da242;
+  color: black;
+text-align: center;
+  padding: 10px 18px;
+  border-radius: 10px;
+
+
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.form-range{
+
+
+
+  width: 100%;
+
+  height: 6px;
+
+  border-radius: 10px;
+
+  background: #2d3748;
+
+  outline: none;
+
+  transition: background 0.3s ease;
+}
+.form-range::-webkit-slider-runnable-track {
+
+  height: 6px;
+
+  background: #2d3748;
+
+  border-radius: 10px;
+}
+.form-range::-webkit-slider-thumb {
+
+  -webkit-appearance: none;
+
+  appearance: none;
+
+  width: 18px;
+
+  height: 18px;
+
+  border-radius: 50%;
+
+  background: #3b82f6;
+
+  cursor: pointer;
+
+  margin-top: -6px;
+
+  box-shadow:
+    0 0 10px rgba(59,130,246,0.6);
+
+  transition: all 0.2s ease;
+}
+.download-panel{
+    background-color: #111;
+  padding: 40px;
+  border-radius: 20px;
+  width: 450px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  border: 1px solid rgba(254, 205, 69, 0.2);
+}
+.download-panel button{
+   border: 2px solid #3b82f6;
+background: #3b82f6;
+  color: white;
+
+  padding: 10px 18px;
+  border-radius: 10px;
+
+  box-shadow: 0 4px 10px rgba(59, 130, 246, 0.3);
+
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+
+
+
+
+
+
+
+
+.tool-section{
+  display: flex;
+  gap:60px;
+}
+.download-panel select {
+  appearance: none; 
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  
+  padding: 10px;
+  border: 2px solid #555;
+  border-radius: 6px;
+  background-color:#333;
+color:white;
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 12px;
+  
+  font-size: 25px;
+  cursor: pointer;
+  width:100px;
+  text-align: center;
+}
+.downloadbtn{
+    height:60px;
+  width:300px !important;
+     
+background: #fecd45 !important;
+
+  color: black  !important ;
+text-align: center   !important;
+  padding: 10px 18px   !important;
+  border-radius: 10px   !important;
+font-size: 20px   !important;
+}
+
+
+.pdfconversionlist ul{
+list-style-type:none;
+}
+.pdfconversionlist ul li a{
+  color:white;
+  text-decoration:none;
+
+}
+
+.convertpdf{
+   display:flex;
+justify-content: center;
+  cursor:pointer;
+flex-shrink: 0;
+}
+.convertpdf:hover{
+  color:#e5322d;
+
+}
+
+
+
+.convert-container{
+    position:relative;
+}
+
+.pdfconversionlist{
+    position:absolute;
+    top:100%;
+    left:50%;
+    transform:translateX(-50%);
+    display:flex;
+    opacity:0;
+    visibility:hidden;
+    transition:0.2s;
+    width:500px;
+    z-index:1000;
+}
+
+.convert-container:hover .pdfconversionlist{
+    opacity:1;
+    visibility:visible;
+}
+.convert-container:hover .convertpdf{
+  color: #e5322d;
+}
+.oreintationbtn{
+  width:167px;
+  height: 80px;
+  padding: 4px 12px;
+}
+.poreintation{
+    width:167px;
+  height: 80px;
+  padding: 4px 12px;
+  border:5px solid #e5322d;
+  border-radius: 10px;
+}
+.loreintation{
+    width:167px;
+  height: 80px;
+  padding: 4px 12px;
+  border:5px solid #e5322d;
+  border-radius: 10px;
+}
+
+.convertbtn{
+  width:330px;
+  height:64px;
+  background-color: #e5322d;
+  color:#ffffff;
+  border-radius: 25px;
+  font-size: bold;
+}
+.convertdbtn{
+    width:330px;
+  height:64px;
+  background-color:#3b82f6;
+  color:#ffffff;
+  border-radius: 25px;
+  font-size: bold;
+}
+.pdfsimple button{
+  background-color: #47474f;
+}
+.pdfsimple{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
